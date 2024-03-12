@@ -86,7 +86,7 @@ void smallMenu() {
 }
 
 void addBook() {
-    if (size <= CAPACITY) { //checks for free space
+    if (size < CAPACITY) { //checks for free space
         book book1;
         printf("Enter Book Name: ");
         getchar(); //to clear the buffer
